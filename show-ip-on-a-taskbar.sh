@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 # Install Zenity
 
@@ -7,7 +7,7 @@ sudo apt install zenity -y
 
 
 # Create .sh file
-echo "#!usr/bin/env bash
+echo "#!/usr/bin/env bash
 
 # Add delay 
 sleep 10
